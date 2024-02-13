@@ -1,0 +1,37 @@
+.pointer{
+    cursor: pointer;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background-color: blue; */
+    background: linear-gradient(142.56deg, #913aff -1.68%, #622cfd 62.12%);
+    padding-bottom: 20px;
+    width: 100%;
+    z-index: 1000; /* Un valor alto para asegurarse de que se mantenga por encima de otros elementos */
+  }
+  .fixed-header-home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background-color: blue; */
+    background: linear-gradient(142.56deg, #913aff -1.68%, #622cfd 62.12%);
+    padding-bottom: 20px;
+    width: 100%;
+    z-index: 1001; /* Un valor alto para asegurarse de que se mantenga por encima de otros elementos */
+  }
+  .btn-group {
+    display: flex; /* This will create a flex container */
+    align-items: center; /* This will vertically center the items in the container */
+  }
+  
+  .btn-group .btn {
+    margin-right: 8px; /* This adds some space between the buttons */
+  }
+  
+  /* Remove the margin from the last button */
+  .btn-group .btn:last-child {
+    margin-right: 0;
+  }
+  
